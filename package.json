@@ -14,7 +14,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/edde746/vite-plugin-mjml.git"
   },
   "peerDependencies": {
     "vite": "^6.0.0"
