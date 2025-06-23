@@ -1,0 +1,29 @@
+{
+  "name": "@edde746/vite-plugin-mjml",
+  "version": "1.0.0",
+  "description": "A Vite plugin for importing and compiling MJML files",
+  "main": "index.js",
+  "type": "module",
+  "keywords": [
+    "vite",
+    "plugin",
+    "mjml",
+    "email"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "peerDependencies": {
+    "vite": "^6.0.0"
+  },
+  "dependencies": {
+    "mjml": "^4.15.3"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ]
+}
