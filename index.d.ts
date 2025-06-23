@@ -3,11 +3,9 @@ declare module '*.mjml' {
   export default content;
 }
 
-export interface MjmlPluginOptions {
-  // Future options can be added here
+declare module '@edde746/vite-plugin-mjml' {
+  export function mjmlPlugin(): {
+    name: string;
+    load(id: string): string | undefined;
+  }
 }
-
-export function mjmlPlugin(options?: MjmlPluginOptions): {
-  name: string;
-  load(id: string): string | undefined;
-};

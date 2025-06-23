@@ -1,9 +1,10 @@
 {
   "name": "@edde746/vite-plugin-mjml",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Vite plugin for importing and compiling MJML files",
   "main": "index.js",
   "type": "module",
+  "types": "index.d.ts",
   "keywords": [
     "vite",
     "plugin",
